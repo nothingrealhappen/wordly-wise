@@ -1,8 +1,8 @@
 === Plugin Name ===
-Contributors: YourName
+Contributors: Cooper
 Tags: translation, chatGPT, language, cache, customization
-Requires at least: 5.0
-Tested up to: 5.8
+Requires at least: 6.0
+Tested up to: 6.5.2
 Stable tag: 1.0
 License: GPL-3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
