@@ -1,0 +1,46 @@
+.wordly-wise-trans {
+	font-size: 0.8em;
+}
+
+.wordly-wise-loading::after {
+	content: '';
+	box-sizing: border-box;
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	display: inline-block;
+	border-top-color: #6b6b6b;
+	border-bottom-color: #6b6b6b;
+	animation: wordly-wise-spinner .8s ease infinite;
+}
+@keyframes wordly-wise-spinner {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.wordly-wise-translation-bar {
+	padding: 5px 10px;
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	top: 20px;
+	backdrop-filter: blur(10px);
+	display: flex;
+	align-items: center;
+}
+
+.wordly-wise-translation-button {
+	border-radius: 4px;
+	font-size: 1em;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	margin-left: 5px;
+}
+
+
+.wordly-wise-translation-button path {
+	fill: currentColor;
+}
